@@ -1,0 +1,29 @@
+.open_sans {
+    font-family: "Open Sans", "Verdana", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: 300px;
+    font-style: italic;
+}
+
+.crossed_out {
+    text-decoration: line-through;
+
+}
+
+.caps_lock {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fancy-text {
+    text-decoration: overline wavy #ff00cc;
+    word-spacing: 30px;
+    color: #ff00cc;
+}
+
+.double {
+    text-decoration: underline double;
+    letter-spacing: 5px;
+}
