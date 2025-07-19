@@ -1,0 +1,38 @@
+body {
+    background: #383737;
+}
+
+.container {
+    position: relative;
+}
+
+.text{
+    color: #fff;
+    text-align: center;
+    font-size: 64px;
+}
+
+.text::after {
+    content: '';
+    background: #6862bd;
+    display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 90%;
+    border: 5px solid #fff;
+    position: absolute;
+    right: 0;
+    transform: translate(-600px, -70px);
+}
+
+.text::before {
+    content: '';
+    background: #c95a91;
+    display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 90%;
+    border: 5px solid #fff;
+    transform: translate(600px, 70px);
+    
+}
