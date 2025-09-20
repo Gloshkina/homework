@@ -1,20 +1,3 @@
-// const burger = document.querySelector('.burger-icon');
-// const navLinks = document.querySelectorAll('.nav__link');
-
-// function toggleMenu() {
-//     if (document.documentElement.clientWidth > 900) return;
-
-//     document.body.classList.toggle('body--opened-menu');
-// }
-
-// if (burger) {
-//     burger.addEventListener('click', toggleMenu);
-// }
-
-// navLinks.forEach(link => {
-//     link.addEventListener('click', toggleMenu);
-// });
-
 (function() {
 
     document.addEventListener('click', burgerInit)
