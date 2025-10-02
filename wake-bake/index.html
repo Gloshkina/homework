@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework_117</title>
-    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/swiper-bundle.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/fonts.css" rel="stylesheet">
 </head>
 
 <body class="body">
@@ -149,8 +148,8 @@
             <section class="main__program program">
                 <div class="container">
                     <h2 class="program__title title">
-                            Программа обучения
-                        </h2>
+                        Программа обучения
+                    </h2>
                     <div class="program__top">
                         <p class="program__text">
                             Продолжительность курса — 4 недели
@@ -711,6 +710,82 @@
                     </div>
                 </div>
             </section>
+
+            <section class="main__gallery gallery">
+                <div class="container">
+                    <div class="gallery__inner">
+                        <div class="gallery__img">
+                            <img src="./img/decor/cupcake.png" alt="Кексики">
+                        </div>
+                        <div class="gallery__content">
+                            <div class="gallery__info">
+                                <h2 class="gallery__title title">
+                                    Фотогалерея
+                                </h2>
+                                <p class="gallery__text">
+                                    Для комфортного обучения сделаны просторные аудитории, где предоставляется
+                                    всё необходимое оборудование. Здесь наши ученики создают кулинарные шедевры
+                                    под присмотром опытных наставников
+                                </p>
+                            </div>
+                            <div class="gallery__nav">
+                                <button class="gallery__prev" type="button">
+                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.99249 1.03414L2.01649 7.01014L7.99249 12.9861L6.98449 13.9941L0.000488281 7.01014L6.98449 0.0261401L7.99249 1.03414Z"
+                                            fill="#FFA55C" />
+                                        <path
+                                            d="M1.00781 7.69824L1.00781 6.25824L13.2478 6.25824V7.69824L1.00781 7.69824Z"
+                                            fill="#FFA55C" />
+                                    </svg>
+                                </button>
+                                <div class="gallery__pagination"></div>
+                                <button class="gallery__next" type="button">
+                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.25605 12.96L11.232 6.984L5.25605 1.008L6.26405 -3.0528e-07L13.248 6.984L6.26405 13.968L5.25605 12.96Z"
+                                            fill="#FFA55C" />
+                                        <path
+                                            d="M12.2402 6.26465L12.2402 7.70465L0.000234839 7.70465L0.000234902 6.26465L12.2402 6.26465Z"
+                                            fill="#FFA55C" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__slider swiper">
+                        <div class="gallery__wrapper swiper-wrapper">
+                            <a class="gallery__slide swiper-slide" data-fslightbox="gallery" href="./img/content/gallery/1.jpg">
+                                <img src="./img/content/gallery/1.jpg" alt="">
+                            </a>
+                            <a class="gallery__slide swiper-slide" data-fslightbox="gallery" href="./img/content/gallery/2.jpg">
+                                <img src="./img/content/gallery/2.jpg" alt="">
+                            </a>
+                            <a class="gallery__slide swiper-slide" data-fslightbox="gallery" href="./img/content/gallery/3.jpg">
+                                <img src="./img/content/gallery/3.jpg" alt="">
+                            </a>
+                            <a class="gallery__slide swiper-slide" data-fslightbox="gallery" href="./img/content/gallery/4.jpg">
+                                <img src="./img/content/gallery/4.jpg" alt="">
+                            </a>
+                            <a class="gallery__slide swiper-slide" data-fslightbox="gallery" href="./img/content/gallery/4.jpg">
+                                <img src="./img/content/gallery/4.jpg" alt="">
+                            </a>
+                            <a class="gallery__slide swiper-slide" data-fslightbox="gallery" href="./img/content/gallery/3.jpg">
+                                <img src="./img/content/gallery/3.jpg" alt="">
+                            </a>
+                            <a class="gallery__slide swiper-slide" data-fslightbox="gallery" href="./img/content/gallery/4.jpg">
+                                <img src="./img/content/gallery/4.jpg" alt="">
+                            </a>
+                            <a class="gallery__slide swiper-slide" data-fslightbox="gallery" href="./img/content/gallery/4.jpg">
+                                <img src="./img/content/gallery/4.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </main>
         <footer class="footer">
             <div class="container">
@@ -840,6 +915,7 @@
     </div>
 
     <script src="./js/fslightbox.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
