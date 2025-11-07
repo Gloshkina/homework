@@ -1,0 +1,79 @@
+.footer {
+    background: var(--general-text);
+    color: var(--general-bg);
+    gap: 15px;
+    padding: 50px 0 30px;
+}
+
+
+.footer__logo {
+    padding-bottom: 25px;
+    position: relative;
+    right: 10px;
+}
+
+.footer__inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-left: 0;
+    max-width: 1242px;
+}
+
+.footer__title {
+    font-family: "NAMU Pro";
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    display: block;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 6px;
+    color: #ffffffcf;
+
+    transition: var(--transition);
+}
+.footer__link:hover {
+    color: var(--accent-color);
+}
+
+.footer__col-number {
+    font-family: "Open Sans";
+    padding-bottom: 54px;
+    font-weight: 900;
+    font-size: 24px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.footer__col-number:hover {
+    color: var(--accent-color);
+    transform: scale(1.05); /* NEW: увеличиваем на 5% */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.socials__list {
+    display: flex;
+    gap: 20px;
+}
+
+.socials__link .circle-bg{
+    transition: var(--transition);
+}
+.socials__link .circle-bg:hover {
+    fill: var(--accent-color);
+}
+
+.footer__bottom {
+    grid-column: 3 / span 2;
+    position: relative;
+    top: -40px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffffffcf;
+}

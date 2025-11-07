@@ -1,0 +1,138 @@
+.header__top {
+    padding: 6px 0 7px;
+    gap: 15px;
+    background: #111;
+    color: var(--accent-text);
+    font-size: 20px;
+    font-family: "NAMU Pro";
+}
+
+.header__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__link {
+    display: block;
+    padding: 10px 0;
+
+    transition: var(--transition);
+}
+
+.header__link:hover {
+    color: var(--accent-color);
+}
+
+.header__bin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__bin path {
+    transition: var(--transition);
+}
+
+.header__bin:hover path {
+    stroke: var(--accent-color);
+}
+
+.burger {
+    display: none;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.burger span {
+    position: relative;
+    width: 32px;
+    height: 3px;
+    background: var(--accent-text);
+    border-radius: 100px;
+    transition: var(--transition);
+}
+
+.burger span::before,
+.burger span::after {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 3px;
+    background: var(--accent-text);
+    border-radius: 100px;
+    transition: var(--transition);
+}
+
+.burger span::before {
+    top: -8px;
+}
+
+.burger span::after {
+    top: 8px;
+}
+
+.burger:hover span,
+.burger:hover span::before,
+.burger:hover span::after {
+    background: var(--accent-color);
+}
+
+/* -----------------------------header-hero---------------------- */
+
+.header__hero {
+    background: #DDDDDD;
+}
+
+.header__hero-inner {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 556px;
+    flex-shrink: 0;
+}
+
+.hero__title {
+    font-family: "NAMU Pro";
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.03;
+    padding-bottom: 40px;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.03;
+    padding-bottom: 90px;
+    font-family: "Open Sans";
+}
+
+
+.hero__img {
+    transform: translateX(100px);
+}
+
+.hero__img img {
+    display: block;
+    height: auto;
+}
+
+.button--hero {
+    width: 235px;
+}
+

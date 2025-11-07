@@ -1,0 +1,54 @@
+:root {
+    --general-text: #111;
+    --general-text-2: #000;
+    --general-bg: #FFFFFF;
+    --general-bg-2: #F8F8F8;
+    --accent-text: #fff;
+    --accent-color: #C5358C;
+    --transition: all .4s;
+}
+
+
+
+.body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    color: var(--general-text);
+    background: var(--general-bg);
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1390px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+
+.button {
+    border-radius: 3px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 64px;
+    background: var(--accent-color);
+
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--accent-text);
+    font-family: "Open Sans";
+}
+
+/* ------------------------------------------------------------------ */
